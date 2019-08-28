@@ -14,7 +14,6 @@ print(res_dict['drwtNo1'])
 
 
 # 1등 번호 6개가 담긴 result라는 list를 출력.
-
 result = []
 for i in range(1,7) :
     result.append(res_dict[f'drwtNo{i}'])
