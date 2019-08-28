@@ -5,7 +5,7 @@ python으로 telegram message 보내기
 import requests
 
 base_url ='https://api.telegram.org'
-token = '985446231:AAGqbgEOD_0k5hujNfywoeaGVCDFlTUMtds'
+token = '나의 토큰id'
 
 # (1) getUpdates를 통해 chat_id를 가져오자 
 url = f'{base_url}/bot{token}/getUpdates'
